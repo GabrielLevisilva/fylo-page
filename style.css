@@ -24,20 +24,18 @@
         width: 30%;
     }
     nav{
+        font-family: 'Raleway', sans-serif;
         display: flex;
         gap: 10px;
+        align-items: center;
     }
     nav > a{
         text-decoration: none;
-        font-family: 'Open Sans', sans-serif;
-        font-size: 14px;
-    }
-    nav > a:hover{
-        cursor: pointer;
     }
     nav > a:active{
-        color: hsl(0, 22%, 44%);
+        color: hsl(224, 93%, 58%);
     }
+    
     #block1{
         width: 90vw;
         padding: 10px;
