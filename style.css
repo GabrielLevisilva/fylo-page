@@ -15,8 +15,8 @@
     }
 
     header{
-        background-color: lightblue;
         display: flex;
+        align-items: center;
         justify-content: space-between;
         padding: 20px;
     }
@@ -31,6 +31,12 @@
         text-decoration: none;
         font-family: 'Open Sans', sans-serif;
         font-size: 14px;
+    }
+    nav > a:hover{
+        cursor: pointer;
+    }
+    nav > a:active{
+        color: hsl(0, 22%, 44%);
     }
     #block1{
         width: 90vw;
