@@ -1,0 +1,14 @@
+@media (min-width: 376px){
+    header{
+        background-color:antiquewhite;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    header > img{
+        width: 10%;
+    }
+    /* BLOCO 1 */
+}
